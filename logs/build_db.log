@@ -1,0 +1,28 @@
+2025-05-01 05:56:40,872 - INFO - [Build DB] Starting document loading and embedding...
+2025-05-01 05:56:48,313 - INFO - [Build DB] Loaded 6 documents
+2025-05-01 05:56:48,314 - INFO - [Build DB] Split into 97 chunks
+2025-05-01 05:57:00,319 - INFO - Use pytorch device_name: cpu
+2025-05-01 05:57:00,319 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-01 05:57:04,129 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-01 05:57:05,287 - INFO - [Build DB] Done. Vector DB saved to ./db in 24.42 seconds
+2025-05-01 06:02:26,185 - INFO - [Build DB] Starting document loading and embedding...
+2025-05-01 06:02:28,702 - INFO - [Build DB] Loaded 6 documents
+2025-05-01 06:02:28,735 - INFO - [Build DB] Split into 98 chunks
+2025-05-01 06:02:31,454 - INFO - Use pytorch device_name: cpu
+2025-05-01 06:02:31,454 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-01 06:02:37,199 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-01 06:02:37,959 - INFO - [Build DB] Done. Vector DB saved to ./db in 11.77 seconds
+2025-05-01 06:06:55,395 - INFO - [Build DB] Starting document loading and embedding...
+2025-05-01 06:06:57,959 - INFO - [Build DB] Loaded 6 documents
+2025-05-01 06:06:57,960 - INFO - [Build DB] Split into 98 chunks
+2025-05-01 06:07:00,660 - INFO - Use pytorch device_name: cpu
+2025-05-01 06:07:00,660 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-01 06:07:03,861 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-01 06:07:04,504 - INFO - [Build DB] Done. Vector DB saved to ./db in 9.11 seconds
+2025-05-01 06:07:14,512 - INFO - [Build DB] Starting document loading and embedding...
+2025-05-01 06:07:16,901 - INFO - [Build DB] Loaded 6 documents
+2025-05-01 06:07:16,902 - INFO - [Build DB] Split into 98 chunks
+2025-05-01 06:07:19,593 - INFO - Use pytorch device_name: cpu
+2025-05-01 06:07:19,593 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-05-01 06:07:22,861 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-01 06:07:23,594 - INFO - [Build DB] Done. Vector DB saved to ./db in 9.08 seconds

@@ -1,0 +1,10 @@
+langchain>=0.0.267
+langchain_community>=0.0.6
+langchain_huggingface>=0.0.2
+langchain_chroma>=0.0.5
+chromadb>=0.4.15
+llama-cpp-python>=0.2.0
+unstructured>=0.10.0
+markdown>=3.4.3
+sentence-transformers>=2.2.2
+pydantic>=2.0.0

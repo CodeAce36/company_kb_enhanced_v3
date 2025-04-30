@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test Chatbot",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_chatbot.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Build Database",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_db.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
