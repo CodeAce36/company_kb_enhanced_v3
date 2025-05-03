@@ -1,5 +1,5 @@
 # IT Department Basic Troubleshooting Guide
-> Classification: Public
+> Classification: Internal-Only
 
 ## Note For AI Knowledge Base
 This document serves as an IT troubleshooting reference for common applications and systems used in our organization. It's structured with clear categories, problem-solution pairs, and step-by-step instructions to facilitate efficient issue resolution. Each section contains descriptive headers that clearly indicate the application and problem type to enable precise information retrieval.

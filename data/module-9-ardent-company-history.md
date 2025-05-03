@@ -1,5 +1,5 @@
 # Ardent Paralegal Business Solutions: Our Journey
-> Classification: Public
+> Classification: Internal-Only
 
 ## Who We Are
 
