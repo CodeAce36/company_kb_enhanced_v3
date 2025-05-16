@@ -1,4 +1,5 @@
 # Comprehensive HR Handbook and FAQ Documentation
+> Classification: Internal-Only
 
 ## Employment Status Types
 
