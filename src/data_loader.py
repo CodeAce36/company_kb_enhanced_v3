@@ -11,18 +11,8 @@ def extract_metadata_from_content(content, filepath):
     metadata = {
         "source": filepath,
         "filename": os.path.basename(filepath),
+        "classification": "public"  # All documents are now public
     }
-    
-    # Default classification is public
-    classification = "public"
-    
-    # Check for classification markers in the content
-    if re.search(r'confidential|sensitive|private|internal[\s\-]only', content, re.IGNORECASE):
-        classification = "confidential"
-    elif re.search(r'internal[\s\-]only', content, re.IGNORECASE):
-        classification = "internal-only"
-        
-    metadata["classification"] = classification
     
     # Extract document title (first heading)
     title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)

@@ -14,41 +14,17 @@ logging.basicConfig(
 class AccessControl:
     def __init__(self, user_context=None):
         """Initialize with user context (if available)."""
-        self.user_context = user_context or {"clearance_level": "standard"}
+        self.user_context = user_context or {"clearance_level": "confidential"}
         self.access_log = []
     
     def check_query_permission(self, query):
         """Check if the query contains restricted terms or topics."""
-        # List of restricted topics or keywords based on company policy
-        restricted_topics = [
-            "acquisition", "layoff", "unreleased", "confidential", "salary",
-            "merger", "financial forecast", "internal only"
-        ]
-        
-        query_lower = query.lower()
-        detected_restricted = [topic for topic in restricted_topics if topic in query_lower]
-        
-        # Log the access attempt
-        if detected_restricted and self.user_context.get("clearance_level") != "confidential":
-            self.log_access("query", "restricted_topic", "read", False, 
-                           details=f"Detected restricted topics: {detected_restricted}")
-            return False, detected_restricted
-        
+        # All queries are now allowed
         return True, []
     
     def filter_document_by_metadata(self, doc):
         """Filter documents based on metadata (classification level)."""
-        # Check if document has classification metadata
-        metadata = getattr(doc, "metadata", {})
-        classification = metadata.get("classification", "public")
-        
-        # Check user clearance against document classification
-        if classification == "confidential" and self.user_context.get("clearance_level") != "confidential":
-            return False
-        
-        if classification == "internal-only" and self.user_context.get("clearance_level") not in ["standard", "confidential"]:
-            return False
-            
+        # All documents are now accessible
         return True
     
     def log_access(self, resource_type, resource_id, access_type, successful, details=None):

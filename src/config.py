@@ -14,7 +14,7 @@ class Config:
     MIN_RELEVANCE_SCORE = 0.7
     
     # Security settings
-    CONFIDENTIALITY_LEVEL = "strict"  # 'strict', 'moderate', or 'low'
+    CONFIDENTIALITY_LEVEL = "low"  # Lowest confidentiality level
     LOGGING_ENABLED = True
     DATA_DIRECTORY = "data"
     
